@@ -46,7 +46,7 @@ A aplicação possui persistência de dados, validações e regras de integridad
 ## 📂 Estrutura do projeto
 
 ```text
-sistema-locacao-veiculos/
+sistema-locacao-veiculos-postgresql/
 ├── diagrams/       -> Diagramas do banco de dados e do sistema
 ├── sql/            -> Scripts SQL de criação e inserção de dados
 ├── src/
@@ -118,8 +118,8 @@ As operações realizadas pela aplicação possuem persistência no banco de dad
 **1. Clone o repositório:**
 
 ```bash
-git clone https://github.com/natyylimaf/sistema-locacao-veiculos.git
-cd sistema-locacao-veiculos
+git clone https://github.com/natyylimaf/sistema-locacao-veiculos-postgresql.git
+cd sistema-locacao-veiculos-postgresql
 ```
 
 **2. Inicie o banco de dados PostgreSQL:**
@@ -132,7 +132,7 @@ docker compose up -d postgres
 **3. Volte para a pasta do projeto e crie o ambiente virtual:**
 
 ```bash
-cd ~/sistema-locacao-veiculos
+cd ~/sistema-locacao-veiculos-postgresql
 
 python3 -m venv venv
 source venv/bin/activate
